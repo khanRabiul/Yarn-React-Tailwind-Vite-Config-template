@@ -1,8 +1,29 @@
-# React + Vite
+# Yarn-React-Tailwind-Vite-Config-template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To use the template follow the steps:
 
-Currently, two official plugins are available:
+## Option 1: Rename the folder after cloning:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+clone: git clone https://github.com/your-username/your-repo-name.git
+
+Rename the folder: 
+for mac/Linax: mv your-repo-name new-folder-name
+for windows: ren your-repo-name new-folder-name
+
+## Option 2: Change the Folder Name During Cloning
+Give a space at the end. Type your project name
+Like: git clone https://github.com/your-username/your-repo-name.git new-folder-name
+
+
+## Navigate to the Cloned Directory
+Step 1: Navigate to the Cloned Directory
+cd MyProject  # or the name you chose
+
+Step 2: Install Dependencies
+yarn install
+
+## Finally use :
+yarn dev
+
+
+~~~~~~~~~~~~~~~~~~  All Done  ~~~~~~~~~~~~~~~~
